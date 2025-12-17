@@ -1,0 +1,253 @@
+.col, .row {
+    display: block !important; 
+}
+
+h3 {
+    font-size: 24px;
+}
+
+@media (max-width: 859px){
+    .full-md {
+        width: 100%;
+    }
+}
+
+ /******************************** HEADER *********************************/
+.masthead {
+    position: relative;
+    background: #fff;
+    z-index: 9999;
+}
+
+.masthead .logo {
+  /*  float: left;*/
+    padding: 18px 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.pre-cabezal {
+    background: #f2f2f2;
+    padding: 10px;
+    height: 44px
+}
+
+.wrap {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    clear: both;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.logo h1 {
+    margin: 0;
+    color: #0b427c;
+    font-size: 2em;
+    font-weight: 400;
+    font-size: 32px;
+    margin-left: 45px;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+
+hr {
+    background-color: #0f427d;
+    height: 0.7em;
+    border-bottom: 0.2em solid #0070cc;
+    margin: 2em 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+
+@media (max-width: 1199px) {
+    .masthead .logo img {
+        width: 110px;
+    }
+    .masthead .logo h1 {
+        font-size: 1.6em;
+    }
+}
+
+
+
+@media screen and (max-width: 893px) {
+
+    body .main-wrap {
+        padding-top: 90px
+    }
+
+        .pre-cabezal,
+    hr {
+        display: none
+    }
+
+    .masthead {
+        margin-bottom: 30px;
+        position: fixed;
+        width: 100%;
+        background: #FFF;
+        z-index: 9999;
+        border-bottom: 1px solid #cecece;
+        height: 71px
+    }
+
+    .masthead .logo {
+        width: 100%;
+        padding: 10px 0;
+        text-align: left;
+        margin: 0;
+        display: inline-block !important;
+    }
+  
+    .masthead .logo a {
+        margin-right: 0;
+    }
+
+    .masthead .logo img {
+        max-width: 80px;
+        display: inline-block;
+        margin: 7px 0 0;
+    }
+    .masthead .logo h1 {
+        font-size: 1.5em;
+        margin-left: 45px;
+    }
+}
+ 
+@media screen and (max-width: 690px) {
+    .masthead .logo img {
+        margin: 7px 15px 7px 0;
+        height: auto;
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .masthead .logo h1 {
+        font-size: 1em;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .masthead .logo {
+        display: flex !important;
+    }
+
+}
+
+
+/**********************************FIN HEADER **********************************/
+
+/**********************************FOOTER **********************************/
+
+footer {
+    background: #0f427d;
+    color: #fff;
+    margin: 40px auto 0 auto;
+    padding: 30px 15px;
+    line-height: 1.5;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 1em;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.consultasysugerencias {
+    float: right;
+}
+
+.consultasysugerencias a {
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.u-hide {
+    display: inline-block !important;
+}
+
+.u-show {
+    display: none !important;
+}
+
+.icono-contacto {
+    background-image: url(./mailfooter.svg); 
+    background-position: center center;
+    background-size: cover;
+    height: 25px;
+    width: 28px;
+    margin-top: -5px;
+    margin-right: 11px;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+@media (max-width: 859px){
+    footer a {
+        font-size: 1.05em;
+    }
+
+    footer .centro{
+        text-align: center;
+        margin-bottom: 15px
+    }
+    
+    .col.col-lg-6.full-md.centro.consultasysugerencias{
+        margin-bottom: 25px
+    }
+
+    .u-hide {
+        display: none !important;
+    }
+
+    .u-show {
+        display: inline-block !important;
+    }
+}
+
+@media (max-width: 859px){
+    footer {
+        position: static;
+    }
+   
+}
+/*****************************FIN FOOTER**********************************************/
+
+
+/**********************************CUERPO LOGOUT ************************************/
+.cuerpologout {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.cuerpologout p {
+   margin-bottom: 10px;
+}
+
+.cuerpologout a {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.main-wrap {
+    padding-top: 50px;
+}
+
+.blockConten {
+    padding-top: 36px;
+    padding-bottom: 50px;
+}
